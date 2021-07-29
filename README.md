@@ -9,7 +9,7 @@ The precision in the program is set at 7488 bits ~2254 decimal digits. The order
 
 The main points of the OpenMP parallelization are:
 1) For given i make an explicit parallel reduction for the sums in formulas (2). 
-2) After computation of sums for given i, compute each formula for the 6 components   xi+1, yi+1, zi+1, Xi+1, Yi+1, Zi+1  independently in parallel.
+2) After computation of sums for given i, compute each formula for the 6 components   x[i+1], y[i+1], z[i+1], X[i+1], Y[i+1], Z[i+1]  independently in parallel.
 3) After computation of all the derivatives up to the N-th, compute the variable step-size in a single section.
 4) Use Horner’s rule for evaluation of all 6 components of the solution independently in parallel
 
