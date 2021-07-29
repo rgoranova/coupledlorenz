@@ -3,7 +3,7 @@ OPENMP COMPUTING OF A REFERENCE SOLUTION FOR COUPLED LORENZ SYSTEM ON [0,400]
 
 To run the program Program_CLorenz.c,  GMP library (GNU multiple precision library) is needed: https://gmplib.org/
 
-The precision in the program is set at 7488 bits ~2254 decimal digits. The order of the method is 2580. The solution is computed on [0,400].  At every 10 time units the solution is printed with 60 digits in the file “res_400.txt”. We took as initial conditions (x(0);y(0); z(0)) = (5;5;10); (X(0);Y(0);Z(0)) = (5;5;10),  the same as those in [1], where the solution was computed up to 100. We repeated the benchmark table from [1].
+The precision in the program is set at 7488 bits ~2254 decimal digits. The order of the method is 2580. The solution is computed on [0,400].  At every 10 time units the solution is printed with 60 digits in the file “res_400.txt”. We took as initial conditions (x(0); y(0); z(0)) = (5; 5; 10); (X(0); Y(0); Z(0)) = (5; 5; 10),  the same as those in [1], where the solution was computed up to 100. We repeated the benchmark table from [1].
 
 [1] Wang, Pengfei, et al. "Clean numerical simulation for some chaotic systems using the   parallel   multiple-precision Taylor scheme." Chinese science bulletin 59.33 (2014): 4465-4472.
 
